@@ -1,0 +1,8 @@
+exclude tests
+exclude build
+exclude dist
+exclude .dev-venv
+exclude .venv
+exclude .dev-requirements.txt
+exclude __pycache__
+exclude .gitignore
