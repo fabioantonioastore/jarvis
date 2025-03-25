@@ -1,0 +1,6 @@
+build
+dist
+big_numbers.egg-info
+.idea
+.venv
+.env
