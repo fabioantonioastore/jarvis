@@ -4,3 +4,5 @@ big_numbers.egg-info
 .idea
 .venv
 .env
+.dev-venv
+__pycache__
