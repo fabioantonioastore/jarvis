@@ -1,13 +1,7 @@
 from typing import Any, Optional
 
-from classes.descriptors import DefaultDescriptor
-
 
 class Node:
-    value = DefaultDescriptor()
-    next = DefaultDescriptor()
-    prev = DefaultDescriptor()
-
     def __init__(
         self, value: Any, next: Optional["Node"] = None, prev: Optional["Node"] = None
     ) -> None:
