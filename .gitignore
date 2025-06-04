@@ -1,8 +1,24 @@
-build
-dist
-big_numbers.egg-info
-.idea
-.venv
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDEs and editors
+.idea/
+.vscode/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.dev-venv/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Secrets - DO NOT COMMIT
 .env
-.dev-venv
-__pycache__
